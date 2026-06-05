@@ -9,11 +9,12 @@
     "./**/*.tsx"
   ],
   "compilerOptions": {
+    "moduleResolution": "bundler", // OVERRIDE: Forces modern module bundling resolution
     "paths": {
-      "~*": [
+      "*": [
         "./*"
       ]
     },
-    "baseUrl": "."
+    "types": ["node", "chrome"]
   }
 }

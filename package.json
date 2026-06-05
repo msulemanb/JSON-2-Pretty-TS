@@ -1,8 +1,8 @@
 {
-  "name": "jsonforge",
-  "displayName": "Jsonforge",
+  "name": "json2prettyts-jpt",
+  "displayName": "JSON2PrettyTS (JPT)",
   "version": "0.0.1",
-  "description": "Turn raw JSON links into interactive data trees, copy TypeScript interfaces instantly, and generate mock API endpoints.",
+  "description": "Clean dark-mode JSON visualizer with instant, scoped TypeScript type and interface generation.",
   "author": "msulemanb",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,6 +10,7 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/storage": "^1.15.0",
     "plasmo": "0.90.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"

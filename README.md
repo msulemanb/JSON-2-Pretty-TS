@@ -1,33 +1,79 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
-## Getting Started
+```markdown
+# ⚡ JSON2PrettyTS (JPT)
 
-First, run the development server:
+An interactive, high-performance Chrome Extension built with **Plasmo** and **React** designed to make raw JSON beautiful and instantly generate scoped TypeScript structures.
 
+![JSON2PrettyTS Visual Preview](assets/preview.gif)
+
+## ✨ Features
+
+* **Auto-Beautification:** Automatically intercepts raw JSON API endpoints (`.json` files, mock servers, REST APIs) and replaces unformatted text with a styled dark-mode tree layout.
+* **Instant TS Interface Generation:** One click extracts clean, deeply nested TypeScript structures from either the root dataset or specific local sub-nodes.
+* **Persistent Tree Memory:** Remembers exactly which object layers you collapsed or expanded, retaining your focus state even across site refreshes.
+* **Offline Playground Workspace:** Features a self-hosted standalone input dashboard (`options.html`) allowing you to paste and parse arbitrary server log snippets completely offline.
+
+---
+
+## 🚀 Installation Guide
+
+### Option 1: Quick Install (Direct ZIP Download)
+Use this if you want to use the extension right away without writing code or installing development tools.
+
+1. At the top of this GitHub repository page, click the green **`Code`** button.
+2. Click **`Download ZIP`** from the dropdown menu to download the project source bundle.
+3. Locate the downloaded `json2prettyts.zip` file on your computer and extract/unzip it.
+4. Open Google Chrome and navigate to: `chrome://extensions/`
+5. Turn on the **Developer mode** toggle switch in the top-right corner of the page.
+6. Click the **Load unpacked** button in the top-left corner.
+7. Select the extracted folder containing the extension assets to install it instantly!
+
+---
+
+### Option 2: Developer Local Setup (From Source)
+Use this if you want to inspect the codebase, tweak styles, or contribute to development.
+
+#### Prerequisites
+Make sure you have Node.js installed alongside **pnpm** (preferred engine for Plasmo frameworks).
+```bash
+npm install -g pnpm
+
+```
+
+#### Setup Steps
+
+1. Clone the repository framework locally:
+```bash
+git clone [https://github.com/YOUR_USERNAME/json2prettyts.git](https://github.com/YOUR_USERNAME/json2prettyts.git)
+cd json2prettyts
+
+```
+
+
+2. Install all core engine packages:
+```bash
+pnpm install
+
+```
+
+
+3. Boot up the dynamic development hot-reloads engine:
 ```bash
 pnpm dev
-# or
-npm run dev
+
 ```
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+4. Open Google Chrome, head to `chrome://extensions/`, enable **Developer mode**, click **Load unpacked**, and select the output build directory: `build/chrome-mv3-dev`.
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+---
 
-## Making production build
+## 🛠️ How to Use
 
-Run the following:
+### 1. Direct Web-View Injection
 
-```bash
-pnpm build
-# or
-npm run build
-```
+Navigate directly to any pure API endpoint layout (e.g., `https://jsonplaceholder.typicode.com/users`). **JPT** will override the screen display to render an interactive interactive tree object workspace.
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+### 2. Standalone Scratchpad Sandbox
 
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+Click on the **JPT** icon in your browser's toolbar popup or hit **"Edit your own JSON data ↗"** on any active page header interface. This opens a separate isolated tab canvas page to paste, parse, and edit raw console clipboard clip logs completely offline.
