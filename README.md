@@ -18,13 +18,11 @@ An interactive, high-performance Chrome Extension built with **Plasmo** and **Re
 ### Option 1: Quick Install (Direct ZIP Download)
 Use this if you want to use the extension right away without writing code or installing development tools.
 
-1. At the top of this GitHub repository page, click the green **`Code`** button.
-2. Click **`Download ZIP`** from the dropdown menu to download the project source bundle.
-3. Locate the downloaded `JSON-2-Pretty-TS-main.zip` file on your computer and extract/unzip it.
-4. Open Google Chrome and navigate to: `chrome://extensions/`
-5. Turn on the **Developer mode** toggle switch in the top-right corner of the page.
-6. Click the **Load unpacked** button in the top-left corner.
-7. Select the extracted folder containing the extension assets to install it instantly!
+1. **[Download the latest extension package here](https://github.com/msulemanb/JSON-2-Pretty-TS/blob/main/build/chrome-mv3-prod.zip?raw=true)**.
+2. Extract the ZIP file to a folder on your computer.
+3. Open Chrome and navigate to `chrome://extensions/`.
+4. Turn on **Developer mode** in the top-right corner.
+5. Click **Load unpacked** and select the folder you just extracted.
 
 ---
 
