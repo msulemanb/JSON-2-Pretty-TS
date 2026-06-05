@@ -44,7 +44,7 @@ npm install -g pnpm
 
 1. Clone the repository framework locally:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/json2prettyts.git](https://github.com/YOUR_USERNAME/json2prettyts.git)
+git clone [https://github.com/msulemanb/JSON-2-Pretty-TS.git](https://github.com/msulemanb/JSON-2-Pretty-TS.git)
 cd json2prettyts
 
 ```
