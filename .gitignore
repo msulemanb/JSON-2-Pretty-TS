@@ -1,6 +1,5 @@
 # Plasmo Build Output & Cache Directories
 .plasmo/
-build/
 out/
 
 # Dependencies
