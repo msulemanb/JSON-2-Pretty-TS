@@ -1,4 +1,3 @@
-```markdown
 # ⚡ JSON2PrettyTS (JPT)
 
 An interactive, high-performance Chrome Extension built with **Plasmo** and **React** designed to make raw JSON beautiful and instantly generate scoped TypeScript structures.
@@ -78,7 +77,3 @@ Navigate directly to any pure API endpoint layout (e.g., `https://jsonplaceholde
 ### 2. Standalone Scratchpad Sandbox
 
 Click on the **JPT** icon in your browser's toolbar popup or hit **"Edit your own JSON data ↗"** on any active page header interface. This opens a separate isolated tab canvas page to paste, parse, and edit raw console clipboard clip logs completely offline.
-
-```
-
-```
