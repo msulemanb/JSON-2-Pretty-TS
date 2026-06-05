@@ -2,9 +2,7 @@
 
 An interactive, high-performance Chrome Extension built with **Plasmo** and **React** designed to make raw JSON beautiful and instantly generate scoped TypeScript structures.
 
-<p align="center">
-  <video src="assets/preview.mp4" width="100%" controls autoplay loop muted playsinline></video>
-</p>
+![JSON2PrettyTS Demo](assets/preview.gif)
 
 ## ✨ Features
 
