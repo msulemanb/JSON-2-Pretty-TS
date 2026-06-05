@@ -22,7 +22,7 @@ Use this if you want to use the extension right away without writing code or ins
 2. Extract the ZIP file to a folder on your computer.
 3. Open Chrome and navigate to `chrome://extensions/`.
 4. Turn on **Developer mode** in the top-right corner.
-5. Click **Load unpacked** and select the folder you just extracted.
+5. Click **Load unpacked** and select the folder "chrome-mv3-prod" inside of "jpt-extension" that you just extracted.
 
 ---
 
