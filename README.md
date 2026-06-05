@@ -18,7 +18,7 @@ An interactive, high-performance Chrome Extension built with **Plasmo** and **Re
 ### Option 1: Quick Install (Direct ZIP Download)
 Use this if you want to use the extension right away without writing code or installing development tools.
 
-1. **[Download the latest extension package here](https://github.com/msulemanb/JSON-2-Pretty-TS/blob/main/build/jpt-extension.zip?raw=true)**.
+1. **[Download the extension ZIP](https://github.com/msulemanb/JSON-2-Pretty-TS/raw/main/build/jpt-extension.zip)**.
 2. Extract the ZIP file to a folder on your computer.
 3. Open Chrome and navigate to `chrome://extensions/`.
 4. Turn on **Developer mode** in the top-right corner.
